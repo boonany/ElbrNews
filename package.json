@@ -17,6 +17,7 @@
     "express-session": "^1.17.3",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
+    "newsapi": "^2.4.1",
     "pg": "^8.9.0",
     "pg-hstore": "^2.3.4",
     "react": "^18.2.0",

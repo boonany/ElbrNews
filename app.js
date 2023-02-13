@@ -11,6 +11,8 @@ const FileStore = require('session-file-store')(session);
 
 const indexRouter = require('./routes/index');
 const newsRouter = require('./routes/allnews');
+const loginRouter = require('./routes/login');
+const registrationRouter = require('./routes/registartion');
 
 const app = express();
 const PORT = 3000;
@@ -37,5 +39,6 @@ app.listen(PORT, () => {});
 
 app.use('/', indexRouter);
 app.use('/allnews', newsRouter);
-
+app.use('/login', loginRouter);
+app.use('/registration', registrationRouter);
 module.exports = app;

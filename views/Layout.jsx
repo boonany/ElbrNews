@@ -18,27 +18,27 @@ module.exports = function Layout({ children }) {
       <body>
         <header role="banner" className="mar-t-5 pad-t-2 pad-b-4 pad-s-1 wrap-float bg-white">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#">Navbar</a>
+            <a className="navbar-brand" href="/">ElbNews</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon" />
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
-                <li className="nav-item active">
-                  <a className="nav-link" href="#">
+                <li className="nav-item">
+                  <a className="nav-link" href="/">
                     Home
                     {' '}
                     <span className="sr-only">(current)</span>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Features</a>
+                  <a className="nav-link" href="/login">Log In</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Pricing</a>
+                  <a className="nav-link" href="/registration">Registration</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link disabled" href="#">Disabled</a>
+                  <a className="nav-link" href="#"> Favorites</a>
                 </li>
               </ul>
             </div>

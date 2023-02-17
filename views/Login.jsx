@@ -6,8 +6,8 @@ module.exports = function Login() {
     <Layout>
       <form action="/login" method="POST" name="loginForm">
         <div className="mb-3">
-          <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
-          <input type="text" className="form-control" id="exampleInputEmail1" name="email" />
+          <label htmlFor="exampleInputEmail1" className="form-label">User name</label>
+          <input type="text" className="form-control" id="exampleInputEmail1" name="userName" />
         </div>
         <div className="mb-3">
           <label htmlFor="exampleInputPassword1" className="form-label">Password</label>

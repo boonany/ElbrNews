@@ -4,7 +4,7 @@ const Layout = require('./Layout');
 module.exports = function Registraton() {
   return (
     <Layout>
-      <form action="/registartion" method="POST" name="registrationForm">
+      <form action="/registration" method="POST" name="registrationForm">
         <div className="mb-3">
           <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
           <input type="text" className="form-control" id="exampleInputEmail1" name="email" />
